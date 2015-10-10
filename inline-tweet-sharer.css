@@ -1,0 +1,59 @@
+body {
+	max-width: 780px;
+	margin: 100px auto;
+}
+
+.inline-sharer {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	color : #333;
+	outline: none;
+	text-decoration: none;
+}
+
+.inline-sharer__copy {
+	border-bottom: 1px dotted rgba(64, 153, 255, .6);
+}
+
+.inline-sharer__icon {
+	position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+    vertical-align: middle;
+    margin: -3px 0 0 5px;
+    background-color: #d0d5d8;
+    background-image : url('assets/img/social-twitter.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    border-radius: 2px;
+}
+
+.inline-sharer__icon:before {
+	content: '';
+    position: absolute;
+    left: -3px;
+    top: 9px;
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid #D0D5D8;
+}
+
+.inline-sharer:hover .inline-sharer__copy {
+	border-bottom: 1px solid #4099ff;
+	color: #4099ff;
+	transition: all .3s;
+}
+
+.inline-sharer:hover .inline-sharer__icon {
+	background-color: #4099ff;
+	transition: background-color .3s;
+}
+.inline-sharer:hover .inline-sharer__icon:before {
+	border-right-color: #4099ff;
+	transition: border-right-color .3s;
+}
