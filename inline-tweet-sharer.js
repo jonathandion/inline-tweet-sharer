@@ -8,7 +8,8 @@
 	var InlineSharer = {
 		handleClick : function (e) {
 			e.preventDefault();
-			window.open('https://twitter.com/intent/tweet?text=' + this.getAttribute('data-text'), "_blank", "width=700, height=300");
+			var text = this.getAttribute('data-text') ? this.getAttribute('data-text') : this.innerText;
+			window.open('https://twitter.com/intent/tweet?text=' + text , "_blank", "width=700, height=300");
 		},
 		init : function() {
 
