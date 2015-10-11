@@ -1,8 +1,14 @@
 # Inline Tweet Sharer
-Share with style ! Inline Tweet Sharer is a tiny plugin to make your inline links sharable with Twitter. Inspired by [Invision blog](http://blog.invisionapp.com/)
+Inline Tweet Sharer is useful tiny plugin to create sharable sentences for Twitter. Inspired by [Invision blog](http://blog.invisionapp.com/)
 
-- Pure Vanilla Javascript
+- Pure Vanilla Javascript  🍦
 - No JQuery needed
+- Share with style ! 
+
+
+## Demo
+
+WIP
 
 
 ## Usage
@@ -21,6 +27,24 @@ Add "inline-sharer" class to your link and insert your tweet description inside 
 Example
 
 	<a href="#" class="inline-sharer" data-text="Description of your tweet here" > I want to share this ... </a>
+	
+
+### List of attributes
+
+<table>
+	<thead>
+		<tr>
+		<th>Attribute</th>
+		<th>Description</th>
+		</tr>
+		</thead>
+	<tbody>
+	<tr>
+		<td>data-text</td>
+		<td>(optional) Tweet content (default: link text)</td>
+		</tr>
+	<tr>
+</table>
 	
 	
 ## License
