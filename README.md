@@ -1,5 +1,5 @@
 # Inline Tweet Sharer
-Inline Tweet Sharer is useful tiny plugin to create sharable sentences for Twitter. Inspired by [Invision blog](http://blog.invisionapp.com/)
+Tiny plugin to create sharable sentences for Twitter. Inspired by [Invision blog](http://blog.invisionapp.com/)
 
 - Pure Vanilla Javascript  🍦
 - No JQuery needed
@@ -13,7 +13,7 @@ WIP
 
 ## Usage
 
-Download Inline Tweet Sharer from GitHub. Place plugin files to your project folder: your-project/js/inline-tweet-sharer/inline-tweet-sharer.js and your-project/css/inline-tweet-sharer/inline-tweet-sharer.css
+Download and add the files to your project folder: your-project/js/inline-tweet-sharer/inline-tweet-sharer.js and your-project/css/inline-tweet-sharer/inline-tweet-sharer.css
 
 Add the files :
 
